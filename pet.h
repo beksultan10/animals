@@ -22,3 +22,34 @@ public:
 
 
 };
+
+
+pet.cpp
+#include "pet.h"
+
+pet::pet()
+{
+}
+
+pet::pet(string nm, size_t ag, string hng)
+{
+	name = nm;
+	age = ag;
+	hang = hng;
+}
+
+string pet::getname()
+{
+	return this->name;
+
+}
+
+size_t pet::getage()
+{
+	return this->age;
+}
+
+string pet::gethang()
+{
+	return this->hang;
+}
