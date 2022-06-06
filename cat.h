@@ -10,3 +10,6 @@ private:
 	string name;
 	size_t age;
 };
+
+
+cat.cpp
